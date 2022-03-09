@@ -57,11 +57,22 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     /**
-     * this function will add a city
+     * this function will add a city to cities
      * @param city
      */
     public void addCity(City city){
         cities.add(city);
         return;
+    }
+
+    /**
+     * check if city is in cities
+     * @param city
+     * @return
+     * Return if city is in Cities
+     */
+    public boolean hasCity(City city){
+        //cities.add(city);
+        return false;
     }
 }

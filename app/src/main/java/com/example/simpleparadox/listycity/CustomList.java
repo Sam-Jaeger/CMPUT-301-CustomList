@@ -83,7 +83,7 @@ public class CustomList extends ArrayAdapter<City> {
         if(!this.hasCity(city)){
             throw new IllegalArgumentException();
         }
-        //cities.remove(city);
+        cities.remove(city);
         return;
     }
 }

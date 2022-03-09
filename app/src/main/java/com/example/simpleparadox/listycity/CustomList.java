@@ -94,6 +94,6 @@ public class CustomList extends ArrayAdapter<City> {
      */
     public int countCities(){
         //return (int) cities.stream().distinct().count();
-        return 0;//cities.size();
+        return cities.size();
     }
 }
